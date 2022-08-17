@@ -83,7 +83,39 @@ a{
     margin-left: 8px;
  }
 
-img{
+.main_img{
     max-width: 100%;
 
+}
+
+/* SECTION TWO STYLE STARTS HERE */
+
+.section_two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_two_head{
+    align-self: center;
+    font-size: 32px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.project_cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+.card_img{
+    max-width: 25%;
 }
