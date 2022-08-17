@@ -61,13 +61,13 @@ a{
    font-size: 48px;
    font-weight: 800; 
    color: #f9faf8;
-   padding: 8px;
+   padding: 10px;
 }
 
 .secondary-text{
     font-size: 18px;
     color: #e5e7eb;
-    padding: 8px;
+    padding: 10px;
  }
 
  button.one{
@@ -93,7 +93,8 @@ a{
 .section_two{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    row-gap: 32px;
+    height: 300px;
 }
 
 .section_two_head{
@@ -101,6 +102,7 @@ a{
     font-size: 32px;
     font-weight: 800;
     color: #1F2937;
+    padding-top: 32px;
 }
 
 .project_cards{
@@ -108,14 +110,56 @@ a{
     justify-content: center;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    flex-shrink: 1;
+    /* justify-content: center; */
+    padding: 0;
+    margin: 0;
+    max-width: 200px;
 }
 
 .card_img{
-    max-width: 25%;
+    max-width: 50%;
+}
+
+.text{
+    font-family: 'Roboto';
+     font-size: 18px; 
+     padding: 10px; 
+  }  
+
+  /* SECTION THREE STYLE STARTS HERE */
+.section_three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;    
+    height: 500px;
+
+}
+
+.sub{
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoter{
+    align-self: flex-end;
+    max-width: 600px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
 }
