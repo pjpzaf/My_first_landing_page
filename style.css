@@ -129,10 +129,14 @@ a{
     padding: 0;
     margin: 0;
     max-width: 200px;
+  
 }
 
 .card_img{
+   width: 100%;
     max-width: 50%;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
 }
 
 .text{
