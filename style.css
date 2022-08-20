@@ -3,7 +3,26 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items:  space-around;
+    font-family: 'Roboto';
 }
+
+button{
+    background-color: #3882f6;
+    font-size: medium;
+    color: #f9faf8;
+    font-weight: 700;
+    padding: 8px 24px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    margin-left: 8px;
+    border-color: #f9faf8;
+ }
+
+ button:active {
+    border-style:none ;
+  }
 
 /* HEADER STYLE STARTS HERE */
 
@@ -70,18 +89,7 @@ a{
     padding: 10px;
  }
 
- button.one{
-    background-color: #3882f6;
-    font-size: medium;
-    color: #f9faf8;
-    font-weight: 700;
-    padding: 8px 24px;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-self: flex-start;
-    margin-left: 8px;
- }
+ 
 
 .main_img{
     max-width: 100%;
@@ -151,7 +159,6 @@ a{
     flex-direction: column;
     max-width: 600px;
     font-size: 36px;
-    font-weight: lighter;
     font-style: italic;
     color: #1f2937;
 }
@@ -162,4 +169,61 @@ a{
     font-size: 25px;
     font-weight: bolder;
     padding: 10px;
+}
+
+ /* SECTION FOUR STYLE STARTS HERE */
+.section_four{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subsection_four{
+    border-radius: 10px;
+    background-color: #3882F6;
+    width: 1200px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.large-text{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.small-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#contact-me {
+    align-self: center;
+}
+
+
+/* FOOTER STYLE STARTS HERE */
+.footer{
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-text{
+    font-size: 18px;
+    color: #f9faf8;
 }
